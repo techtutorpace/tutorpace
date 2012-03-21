@@ -1,0 +1,345 @@
+@charset "utf-8";
+body{
+	margin:0px auto;
+	padding:0px;
+	background-color:#f2f2f2;
+}
+#container {
+	width: 1000px;
+	min-height:630px;
+	/*height:1403px;*/ 
+	border: 1px solid #cccccc; 
+	margin:0px auto; 
+	background-color:#FFFFFF;
+}/* -----  Header Part Start ----- */
+#container #header {
+	float: left;
+	height: 95px;
+	width: 1000px;
+}
+#container #header #header1 {
+	float: left;
+	width: 500px;
+	height: 95px;
+}
+#container #header #header1 #logo {
+	padding: 10px 10px;
+	width: 261px;
+	height:75px;
+	float: left; 
+}
+#container #header #header2 {
+	float: left;
+	width: 500px;
+	height: 95px;
+}
+#container #header #header2 #header2_1 {
+	float: left;
+	width: 500px;
+	height: 60px;
+}
+.div1 {
+	width:390px; height:30px;
+	 padding-left:110px; 
+	 float:left;
+}
+.contact_text {
+    color: #616161;
+    float: left;
+    font-family: Georgia,Palatino;
+    font-size: 16px;
+    padding-top: 10px;
+    width: 225px; 
+}
+.contact_number {
+    color: #616161;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; font-weight:bold;
+    padding-top: 12px;
+    width: 130px;
+}
+.usapng_image {
+	padding:12px 5px 0px 5px;
+	width:21px; height:25;
+	float:left;
+}
+.div2 {
+	width:165px; height:30px;
+	 padding-left:335px; 
+	 float:left;
+}
+.contact_number1 {
+    color: #616161;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; font-weight:bold;
+    width: 130px;
+}
+.usapng_image1 {
+	padding:0px 5px 0px 5px;
+	width:21px; height:25;
+	float:left; 
+}
+#container #header #header2 #header2_2 {
+	float: left;
+	width: 500px;
+	height: 30px;
+	clear:both; 
+}
+.search_input {
+    border: 1px solid #CCCCCC;
+    margin: 1px 0px; float:right;
+    width: 145px; width:207px; height:20px; font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px; background-image:url(../images/search_icon.png);
+	background-repeat:no-repeat; background-position:right center; padding-left:5px; 
+}
+.searchbox {
+	height:20;
+	width:212x;
+	margin-right:8px;
+	float:right;    
+}
+/* -----  Header Part Close ----- */
+/* ----- wrapper Tutorpace_Banner  Part Start ----- */
+#container  #tutorpace_banner {
+	width:1000px;
+	height:325px;
+	clear:both; float:left;
+	background-image:url(../images/tutorpacebanner.png); 
+	background-repeat:no-repeat; background-position:center;
+}
+.banner_span {
+	width:550px; height:310px; margin-top:10px;
+	 float:right; padding-right:10px; margin-left:440px; 
+}
+#tutorpace_banner span a
+{
+	color:#0066CC;
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+.banner_span1 {
+	color:#fff; float:left; font-family:Georgia, 'Times New Roman', Times,; font-size:20px; font-weight:bold; width:550px; height:auto;
+}
+.banner_span2 {
+	color:#fff; float:left; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; width:550px; height:auto;
+}
+
+.banner_span3 {
+	color:#fff; float:left; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;
+	clear:both; width:550px; height:auto;
+}
+
+.banner_span4 {
+	color:#fff; float:left; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:justify;
+	padding:0px 25px 0px 30px; clear:both; width:500px; height:auto; 
+}
+
+.banner_span5 {
+	color:#fff; float:left; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:justify;
+	padding:0px 25px 0px 80px; width:440px; height:auto;
+}
+.banner_span6 {
+	color:#fff; float:left; 
+	padding:10px 70px 0px 380px; 
+	 clear:both; width:100px; height:auto;
+}
+/*
+.banner_span1 {
+color: #8C1A53;
+float: left;
+font-family: Georgia, 'Times New Roman', Times,;
+font-size: 20px; width:550px; height:auto;
+font-weight: bold;
+}
+.banner_span2 {
+color: #DA730F;
+float: left;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px; width:550px; height:auto;
+font-weight: bold;
+}
+.banner_span3 {
+color: #454646;
+float: left;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px; width:550px; height:auto;
+font-weight: bold;
+}
+.banner_span4 {
+color: #454646;
+float: left;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align: justify; clear:both; width:500px; height:auto;
+padding: 0px 25px 0px 30px;
+}
+.banner_span5 {
+color: #782F07;
+float: left;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align: justify; width:550px; height:auto;
+padding: 0px 25px 0px 80px;
+}
+
+.banner_span6 {
+color: white;
+float: left;
+padding: 10px 70px 0px 380px;
+clear: both;  width:150px; height:auto;
+}*/
+/* -----  Tutorpace_Banner  Part Close ----- */
+/* -----  Navigation Menu  Part Start ----- */
+#container #navigation_menu {
+	height:35px;
+	width:1000px;
+	clear:both;
+	float:left;
+	background-image:url(../images/nav_bg.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+#navigation_menu a {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold; text-align:center;
+    line-height:35px; padding:26PX;
+    text-decoration: none;
+}
+#navigation_menu a:hover {
+     color:#666666;
+    
+}
+/* -----  Navigation Menu  Part Close ----- */
+/* -----  main_contain Menu  Part Start ----- */
+#container #main_contain {
+	clear: both;
+	float: left;
+	height: auto;
+	width: 1000px;
+	margin-top: 5px;
+}/* -----  left_contain Menu  Part Start ----- */
+#container #main_contain #left_contain {
+	float: left;
+	height: auto;
+	width: 243px;
+}
+#container #main_contain #left_contain #tutorpace_loginform {
+	float: left; background-image:url(../images/tutorpace_loginform.png);
+	height:183px; background-repeat:no-repeat;
+	width: 225px; padding:30px 18px 0px 0px;
+}
+.tutorpace_loginform_contain {
+	width:90%;
+	height:24px;
+	padding-left:8%;
+}
+.tutorpace_loginform_contain_box {
+	width:92%;
+	height:24px;
+	padding-left:5%;
+}
+.tutorpace_loginform_contain_submit {
+	width:62%;padding-bottom:7px;
+	height:24px; padding-top:15px;
+	padding-left:30%; 
+}
+#forgot a {
+	text-decoration:none;
+	color:#3399FF; padding-left:32px;
+	text-align:center; font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#forgot a:hover {
+	text-decoration:underline;
+}
+.tutorpace-livecha1 {
+	  vertical-align:left; width:218px; height:112px; border:0px; margin-bottom:5px;
+}
+.divalain {
+	float:left;
+	width:auto;
+	height:auto;
+	clear:both;
+}
+.tutorpace_attantfreelectures {
+	vertical-align:left; width:225px; height:80px; border:0px;
+}
+#container #main_contain #left_contain #tutorpace_moresupport_option {
+	float: left; background-image:url(../images/tutorpace_moresupport_option.png);
+	height: 228px; background-repeat:no-repeat; 
+	width: 225px; padding:54px 18px 0px 0px; margin-top:5px;
+}
+#tutorpace_moresupport_option a {
+	text-decoration:none;
+	color:#015B99; text-align:left; font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+#tutorpace_moresupport_option a:hover {
+	text-decoration:underline;
+	color:#0066CC;
+}
+.tutorpace_moresupport_option_contain {
+	width:68%;
+	height:40px; font-family:Georgia, "Times New Roman", Times, serif;
+	padding-left:26%;
+	font-size:15px; line-height:40px;
+}
+.tutorpace_moresupport_option_contain1 {
+	width:68%; font-family:Georgia, "Times New Roman", Times, serif;
+	height:44px; font-size:15px; line-height:40px;
+	padding-left:26%;
+}
+/* -----  left_contain Menu  Part Close ----- */
+#container #main_contain #right_contain { /* -----  right_contain Menu  Part Start ----- */
+	float: left;
+	height: 695px;
+	width: 750px;
+	border:1px solid #dadada;
+	-moz-border-radius:10px;
+	border-radius:10px;  /* -----  right_contain Menu  Part Close ----- */
+}
+.right_contain_text {
+	font-family: georgia, palatino;
+	color: #000000; padding:8px;
+	line-height: 20px; text-align:justify; font-size: small;
+}
+.span_heding {
+	font-size: 18px; font-family:Georgia, 'Times New Roman', Times, serif; color: #7A2743; font-weight:bold;
+	}
+.right_contain_underline {
+	border-bottom:1px dotted #cccccc;
+}
+#container #main_contain #right_contain #right_contain_2 {
+	width:100%; height:226px;
+}
+#container #main_contain #right_contain #right_contain_2_left {
+	width:45%; height:200px; float:left; padding:10px 20px;
+}
+#container #main_contain #right_contain #right_contain_2_right {
+	width:44%; height:200px; float:left; padding:10px 20px;
+}
+#container #main_contain #right_contain #right_contain_3{
+	width:100%; height:auto;
+}
+#container #main_contain #right_contain #right_contain_3_left{
+	width:45%; height:auto; float:left; padding:5px 10px 5px 10px;
+}
+#container #main_contain #right_contain #right_contain_3_right{
+	width:46%; height:auto; float:left; padding:5px 10px 5px 30px;
+}
+.more a {
+	color:#7A2743;
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+	height:19px; 
+	width:55px;
+	font-family:Georgia, "Times New Roman", Times, serif
+}
